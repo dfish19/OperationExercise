@@ -14,7 +14,8 @@ namespace OperatorExercise
             var b = 4;
             var quotient = a / b;
             var remainder = a % b;
-            Console.WriteLine(a + " / " + b + " is " + quotient + " remainer " + remainder);
+            Console.WriteLine(a + " / " + b + " is " + quotient + " remainder " + remainder);
+            Console.WriteLine($"{a} / {b} is {quotient} remainder {remainder}");
         }
         
            

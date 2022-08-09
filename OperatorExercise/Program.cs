@@ -15,9 +15,17 @@ namespace OperatorExercise
             var quotient = a / b;
             var remainder = a % b;
 
-            Console.WriteLine($"{a} / {b} is {quotient} remainder {remainder}");
+            Console.WriteLine(a + b);
+            Console.WriteLine(a - b);
+            Console.WriteLine(a * b);
+            Console.WriteLine(a / b);
+            Console.WriteLine(a % b);
             Console.WriteLine();
 
+
+
+            Console.WriteLine($"{a} / {b} is {quotient} remainder {remainder}");
+            Console.WriteLine();
 
 
             Console.WriteLine("What is the radius of your circle?");
